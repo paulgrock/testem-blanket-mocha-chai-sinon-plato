@@ -1,0 +1,15 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+
+    //- script(src= 'javascripts/vendor/requirejs/require.js')
+    //- script
+    //-   require(['/javascripts/require-config.js'], function(rConfig){
+    //-     require(['/javascripts/common.js'])
+    //-   });
+
+    script(src='javascripts/vendor/requirejs/require.js', data-main='testem-app/javascripts/common.js')

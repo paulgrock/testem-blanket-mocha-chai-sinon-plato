@@ -1,0 +1,33 @@
+{
+  "name": "testem-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "jade": "*"
+  },
+  "devDependencies": {
+    "blanket": "~1.1.5",
+    "bower": "~0.10.0",
+    "chai": "~1.7.2",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-sass": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-express": "~1.0.0-beta1",
+    "grunt-testem": "~0.3.6",
+    "matchdep": "latest",
+    "mocha": "~1.12.0",
+    "phantomjs": "~1.9.1-0",
+    "sinon": "~1.7.3",
+    "sinon-chai": "~2.4.0",
+    "testem": "~0.3.21",
+    "plato": "~0.6.1",
+    "grunt-plato": "~0.2.1",
+    "grunt-contrib-compass": "~0.4.0"
+  }
+}

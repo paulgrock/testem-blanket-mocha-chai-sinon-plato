@@ -1,0 +1,29 @@
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+log
+test/tmp
+test/version_tmp
+tmp
+.sass-cache
+node_modules
+secret.json
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+# Sublime project files
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# RubyMine project files
+.idea/
+
+*.css

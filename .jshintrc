@@ -1,0 +1,33 @@
+{
+    "globals": {
+      "require": true,
+      "define": true
+    },
+    "node": true,
+    "browser": true,
+    "esnext": true,
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "forin": true,
+    "indent": 2,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "quotmark": "single",
+    "regexp": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    "smarttabs": true,
+    "plusplus" : true,
+    "noempty": true,
+    "eqnull": true,
+    "indent": 2,
+    "jquery": true,
+    "maxparams": 4,
+    "maxdepth": 2,
+    "maxstatements": 10
+}
