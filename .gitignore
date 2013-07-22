@@ -1,9 +1,7 @@
 .config
 coverage
 InstalledFiles
-lib/bundler/man
 pkg
-rdoc
 spec/reports
 log
 test/tmp
@@ -11,19 +9,26 @@ test/version_tmp
 tmp
 .sass-cache
 node_modules
-secret.json
+.tern-port
 
-# YARD artifacts
-.yardoc
-_yardoc
-doc/
+*.css
+=======
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
 
 # Sublime project files
 *.sublime-project
 *.sublime-workspace
 .DS_Store
-
-# RubyMine project files
-.idea/
-
-*.css
